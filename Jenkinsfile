@@ -27,7 +27,7 @@ node
  stage("ExecuteSonarQubeReport")
  {
  sh "${mavenHome}/bin/mvn sonar:sonar"
- }
+ } */
  
  stage("UploadArtifactsintoNexus")
  {
@@ -43,12 +43,12 @@ node
  
  stage('EmailNotification')
  {
- mail bcc: 'devopstrainingblr@gmail.com', body: '''Build is over
+ mail bcc: 'bepapaul65@gmail.com', body: '''Build is over
 
  Thanks,
  Mithun Technologies,
- 9980923226.''', cc: 'devopstrainingblr@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'devopstrainingblr@gmail.com'
+ 9980923226.''', cc: 'bepapaul65@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'bepapaul65@gmail.com'
  }
- */
+ 
  
  }
