@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>MylandmarkTech.com- Home Page</title>
+<title>Congrat- About us</title>
 <link href="images/log4.png" rel="icon">
 </head>
 </head>
@@ -23,7 +23,7 @@
 	<span style="font-weight: bold;">
 		Landmark Technology, 
 		Toronto, Ontario, Canada
-		+1 437 215 2483,
+		+1 4703226087,
 		mylandmarktech@gmail.com
 		<br>
 		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
