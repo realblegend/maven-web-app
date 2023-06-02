@@ -40,7 +40,7 @@ node
 
  Thanks,
  Mithun Technologies,
- 9980923226.''', cc: 'bepapaul65@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'paulbepa65@gmail.com'
+ 9980923226.''', cc: 'bepapaul65@gmail.com', from: '', replyTo: '', subject: 'Build is over!!', to: 'bepanovak@gmail.com'
  }
  
  
