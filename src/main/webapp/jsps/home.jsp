@@ -5,12 +5,12 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Congrat- About us</title>
-<link href="images/Capture.PNG" rel="icon">
+<link href="images/Capture.png" rel="icon">
 </head>
 </head>
 <body>
 <h1 align="center">Landmark Technologies</h1>
-	<h1 align="center">CONGRATULATION ON YOUR FIRST PROJECT</h1>
+	<h1 align="center">CONGRATULATIONsssssssss ON YOUR FIRST PROJECT</h1>
 <h2 align="center"> Welcome to Landmark Technology. 
 	Landmark Technology is a an ideal online training  platform for DevOps and Cloud Engineers. 
 	We offer interview preparations and job assitance.
