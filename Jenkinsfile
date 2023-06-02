@@ -31,7 +31,7 @@ node
  */
   stage("DeployAppTomcat")
  {
-  deploy adapters: [tomcat9(credentialsId: '226b4bb7-f7e4-4707-abbb-81f033e9a69e', path: '', url: 'http://35.225.194.212:8089/')], contextPath: null, war: '*/*war'
+  deploy adapters: [tomcat9(credentialsId: '226b4bb7-f7e4-4707-abbb-81f033e9a69e', path: '', url: 'http://35.208.56.74:8089/')], contextPath: null, war: '*/*war'
  }
  
  stage('EmailNotification')
