@@ -8,7 +8,7 @@ node
       echo "Jenkins Node Name ${env.NODE_NAME}"
   
       echo "Jenkins Home ${env.JENKINS_HOME}"
-      echo "Jenkins URL ${env.JENKINS_URL}"
+    
       echo "JOB Name ${env.JOB_NAME}"
   
 
@@ -23,12 +23,7 @@ node
  sh "${mavenHome}/bin/mvn clean package"
  }
  
-  /*
- stage("ExecuteSonarQubeReport")
- {
- sh "${mavenHome}/bin/mvn sonar:sonar"
- } */
- 
+
  stage("UploadArtifactsintoNexus")
  {
  sh "${mavenHome}/bin/mvn deploy"
