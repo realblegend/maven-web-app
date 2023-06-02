@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Congrat- About us</title>
-<link href="images/capture.png" rel="icon">
+<link href="images/Capture.PNG" rel="icon">
 </head>
 </head>
 <body>
