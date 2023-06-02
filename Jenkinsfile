@@ -15,7 +15,7 @@ node
   
   stage("CheckOutCodeGit")
   {
-   git credentialsId: 'Gitid', url: 'https://github.com/realblegend/maven-web-app.git'
+   git branch: 'master2', credentialsId: 'Gitid', url: 'https://github.com/realblegend/maven-web-app.git'
  }
  
  stage("Build")
