@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Realblegend Releases Nexus Repository</name>
-	      <url>http://34.31.223.85:9000/repository/webappreleases/</url>
+	      <url>http://35.225.194.212:9000/repository/webappreleases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Realblegend Snapshot Nexus Repository </name>
-	      <url>http://34.31.223.85:9000/repository/webappsnapshots/</url>
+	      <url>http://35.225.194.212:9000/repository/webappsnapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
