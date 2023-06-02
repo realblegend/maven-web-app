@@ -15,7 +15,7 @@ node
   
   stage("CheckOutCodeGit")
   {
-   git branch: 'development', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/MithunTechnologiesDevOps/maven-web-application.git'
+   git credentialsId: 'Gitid', url: 'https://github.com/realblegend/maven-web-app.git'
  }
  
  stage("Build")
@@ -36,9 +36,7 @@ node
  
   stage("DeployAppTomcat")
  {
-  sshagent(['423b5b58-c0a3-42aa-af6e-f0affe1bad0c']) {
-    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war  ec2-user@15.206.91.239:/opt/apache-tomcat-9.0.34/webapps/" 
-  }
+  deploy adapters: [tomcat9(credentialsId: '226b4bb7-f7e4-4707-abbb-81f033e9a69e', path: '', url: 'http://35.225.194.212:8089/')], contextPath: null, war: '*/*war'
  }
  
  stage('EmailNotification')
